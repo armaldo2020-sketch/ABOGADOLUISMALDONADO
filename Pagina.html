@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lic. Luis Maldonado | Abogado</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f5f7fa;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1589829545856-d10d557cf95f');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    header h1 {
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 18px;
+    }
+
+    nav {
+      background-color: #0f1c2e;
+      padding: 15px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #c9a74d;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      color: #0f1c2e;
+      margin-bottom: 20px;
+    }
+
+    .servicios {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 25px;
+      background: #c9a74d;
+      color: white;
+      border-radius: 30px;
+      text-decoration: none;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+
+    .btn:hover {
+      background: #a88934;
+    }
+
+    .contacto p {
+      text-align: center;
+      font-size: 18px;
+    }
+
+    footer {
+      background: #0f1c2e;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    /* Botón flotante WhatsApp */
+    .whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25d366;
+      color: white;
+      padding: 15px 20px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Lic. Luis Maldonado</h1>
+  <p>Especialista en Derecho Civil, Familiar y Laboral</p>
+  <a class="btn" href="#contacto">Consulta Gratis</a>
+</header>
+
+<nav>
+  <a href="#inicio">Inicio</a>
+  <a href="#sobre">Sobre mí</a>
+  <a href="#servicios">Servicios</a>
+  <a href="#contacto">Contacto</a>
+</nav>
+
+<section id="inicio">
+  <h2>Bienvenido</h2>
+  <p style="text-align:center; max-width:700px; margin:auto;">
+    Ofrezco asesoría legal profesional en Acapulco. Mi compromiso es defender tus derechos con seriedad, ética y resultados.
+  </p>
+</section>
+
+<section id="sobre">
+  <h2>Sobre mí</h2>
+  <p style="text-align:center; max-width:700px; margin:auto;">
+    Soy abogado con más de 15 años de experiencia en litigios. He ayudado a cientos de clientes a resolver conflictos legales en materia civil, familiar y laboral.
+  </p>
+</section>
+
+<section id="servicios">
+  <h2>Servicios</h2>
+  <div class="servicios">
+    <div class="card">
+      <h3>Derecho Civil</h3>
+      <p>Contratos, propiedades, demandas y asesoría legal.</p>
+    </div>
+
+    <div class="card">
+      <h3>Derecho Familiar</h3>
+      <p>Divorcios, pensión alimenticia, custodia.</p>
+    </div>
+
+    <div class="card">
+      <h3>Derecho Laboral</h3>
+      <p>Despidos injustificados, demandas laborales.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contacto" class="contacto">
+  <h2>Contacto</h2>
+  <p>📞 7443567234</p>
+  <p>📧 armaldo2020@gmail.com</p>
+  <p>📍 Acapulco, Guerrero, México</p>
+  <a class="btn" href="https://wa.me/5217443567234">Enviar WhatsApp</a>
+</section>
+
+<footer>
+  <p>© 2026 Lic. Luis Maldonado - Todos los derechos reservados</p>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/5217443567234">WhatsApp</a>
+
+</body>
+</html>
